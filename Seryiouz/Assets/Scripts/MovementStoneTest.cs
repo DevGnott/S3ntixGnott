@@ -15,10 +15,10 @@ public class MovementStoneTest : MonoBehaviour {
          if (Input.GetKey(KeyCode.A))
              rb.AddForce(Vector3.left * 10f);
          if (Input.GetKey(KeyCode.D))
-             rb.AddForce(Vector3.right* 10f);
+             rb.AddForce(Vector3.right * 10f);
          if (Input.GetKey(KeyCode.W))
-             rb.AddForce(Vector3.up* 10f);
+             rb.AddForce(Vector3.forward * 10f);
          if (Input.GetKey(KeyCode.S))
-             rb.AddForce(Vector3.down* 10f);
+             rb.AddForce(Vector3.back * 10f);
 	}
 }
