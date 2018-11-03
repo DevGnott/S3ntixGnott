@@ -3,24 +3,6 @@ guid: 9a64ab759614dc54daf2c747c59feeb0
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: mag
-    100002: mp5
-    100004: //RootNode
-    400000: mag
-    400002: mp5
-    400004: //RootNode
-    2100000: metal
-    2100002: metal_dark
-    2100004: metal_light
-    2100006: glass_blue
-    2300000: mag
-    2300002: mp5
-    3300000: mag
-    3300002: mp5
-    4300000: mag
-    4300002: mp5
-    7400000: Default Take
-    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -74,7 +56,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

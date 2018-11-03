@@ -3,23 +3,6 @@ guid: 95884606c4d906a46a3c3724d91c520a
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: body
-    100002: reloader
-    100004: //RootNode
-    400000: body
-    400002: reloader
-    400004: //RootNode
-    2100000: metal_dark
-    2100002: wood_dark
-    2100004: metal
-    2300000: body
-    2300002: reloader
-    3300000: body
-    3300002: reloader
-    4300000: reloader
-    4300002: body
-    7400000: Default Take
-    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -73,7 +56,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

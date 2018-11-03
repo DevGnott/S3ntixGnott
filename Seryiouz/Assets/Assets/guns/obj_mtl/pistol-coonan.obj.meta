@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 91d3116db7b6e6a40a3dfaa02157788e
+guid: 09a7c32cc759c024a8f991e41f8ebceb
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -7,13 +7,13 @@ ModelImporter:
     100002: //RootNode
     400000: default
     400002: //RootNode
-    2100000: metal
-    2100002: metal_light
-    2100004: glass_blue
-    2100006: metal_dark
+    2100000: metal_dark
+    2100002: metal
+    2100004: metal_light
     2300000: default
     3300000: default
     4300000: default
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
