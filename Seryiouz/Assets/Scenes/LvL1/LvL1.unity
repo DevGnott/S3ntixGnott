@@ -216,7 +216,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 325868847}
   m_LocalRotation: {x: 0.2588191, y: -0, z: -0, w: 0.9659258}
-  m_LocalPosition: {x: 0, y: 2.0900002, z: -3.0200005}
+  m_LocalPosition: {x: 0, y: 0, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2035492413}
@@ -519,6 +519,11 @@ Prefab:
       propertyPath: m_Name
       value: Terrain
       objectReference: {fileID: 0}
+    - target: {fileID: 218859979971174900, guid: 920b2ae916c40fe489bf87c3a1bf87e5,
+        type: 2}
+      propertyPath: m_TreeBillboardDistance
+      value: 250
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 920b2ae916c40fe489bf87c3a1bf87e5, type: 2}
   m_IsPrefabAsset: 0
@@ -660,7 +665,7 @@ GameObject:
   - component: {fileID: 2035492413}
   - component: {fileID: 2035492412}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
