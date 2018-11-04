@@ -48,7 +48,7 @@ public class cameraMovementTest : MonoBehaviour {
        
     }
      
-    private Vector3 GetBaseInput() { //returns the basic values, if it's 0 than it's not active.
+    private Vector3 GetBaseInput() { //returns the basic values, if it's 0 then it's not active.
         Vector3 p_Velocity = new Vector3();
         if (Input.GetKey (KeyCode.W)){
             p_Velocity += new Vector3(0, 0 , 1);
