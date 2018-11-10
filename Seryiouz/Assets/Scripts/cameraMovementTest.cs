@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class cameraMovementTest : MonoBehaviour {
 
- 	float mainSpeed = 100.0f;
+ 	public float mainSpeed = 100.0f;
     float shiftAdd = 250.0f;
     float maxShift = 1000.0f;
     float camSens = 0.25f;
@@ -20,7 +20,6 @@ public class cameraMovementTest : MonoBehaviour {
         //Mouse  camera angle done.  
        
         //Keyboard commands
-        float f = 0.0f; //warum hast du das nicht raus gemacht lol 
         Vector3 p = GetBaseInput();
         if (Input.GetKey (KeyCode.LeftShift)){
             totalRun += Time.deltaTime;
